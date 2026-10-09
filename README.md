@@ -147,7 +147,14 @@ This decision:
 
 ---
 
-## 📸 Postman Testing Guide
+## 📸 Postman Screenshots & Test Results
 
-1. Import the URL routes into Postman (`http://127.0.0.1:8000/api/reporters/` and `http://127.0.0.1:8000/api/issues/`).
-2. Add screenshots of **Success (201 Created)** and **Failure (400 Bad Request)** responses in your repository docs or submission folder.
+### 1. Reporter Creation Success (`POST /api/reporters/` - 201 Created)
+![Reporter Creation Successful](screenshots/Reporter%20Creation%20Successful.png)
+
+### 2. Issue Creation Success (`POST /api/issues/` - 201 Created)
+![Issue Creation Successful](screenshots/Issue%20Creation%20Successful.png)
+
+### 3. Issue Validation Failure (`POST /api/issues/` - 400 Bad Request)
+![Issue Creation Failure](screenshots/Issue%20Creation%20Failure.png)
+
